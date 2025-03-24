@@ -1,0 +1,34 @@
+
+### Zipped File Structure Overview
+
+The zipped file is organized into the following sections to facilitate navigation and understanding:
+
+1. **Baseline Models**  
+   This section contains the code and rendered outputs for the baseline models using two datasets.  
+   - **Code:**  
+     Contains the baseline code for two datasets.  
+     - Dataset 1: Password lengths 12 and 15.  
+     - Dataset 2: Password lengths 12 and 24.
+   - **Rendered Files:**  
+     HTML versions of the baseline code for easy viewing, including both the code and results.
+
+2. **Tuned Models**  
+   This section contains the hyperparameter-tuned models and their corresponding rendered outputs.  
+   - **Code:**  
+     Contains the hyperparameter-tuned code for the two datasets.  
+     - Dataset 1: Password lengths 12 and 15.  
+     - Dataset 2: Password lengths 12 and 24.
+   - **Rendered Files:**  
+     HTML versions of the tuned code for easy viewing, including both the code and results.
+
+3. **Datasets**  
+   This folder includes the two datasets used in the project in CSV format.
+
+4. **Plots**  
+   Contains two folders (Dataset 1 and Dataset 2) with evaluation plots for each dataset. These are further divided into folders for each password length used (e.g., 12, 15, 24).
+
+5. **Computational Time Plotting**  
+   Contains a small code used to plot the computational time taken for different password lengths.
+
+6. **requirements.txt**  
+   A file listing the necessary dependencies to execute the code in the project. Run `pip install -r requirements.txt` to install these dependencies.
